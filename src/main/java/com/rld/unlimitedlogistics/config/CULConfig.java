@@ -11,7 +11,7 @@ public class CULConfig {
     public ModConfigSpec.ConfigValue<Boolean> BULK_MIXING;
 
     private CULConfig(ModConfigSpec.Builder builder) {
-        GAUGE_SLOT_MAX = builder.defineInRange("createunlimitedlogistics.configuration.slot_max", 64, 1, 423);
+        GAUGE_SLOT_MAX = builder.defineInRange("createunlimitedlogistics.configuration.slot_max", 576, 1, 576);
         BULK_MIXING = builder.define("createunlimitedlogistics.configuration.bulk_mixing", false);
     }
 
